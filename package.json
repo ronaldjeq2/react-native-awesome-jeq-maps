@@ -1,0 +1,31 @@
+{
+    "name": "react-native-awesome-jeq-maps",
+    "version": "1.0.0",
+    "description": "React Native module for Google Maps integration",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "dependencies": {
+        "react": "18.3.1",
+        "react-native": "0.75.3"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.6",
+        "typescript": "^5.0.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ronaldjeq2/react-native-awesome-jeq-maps.git"
+    },
+    "keywords": [
+        "react-native",
+        "google-maps",
+        "native-module",
+        "maps"
+    ],
+    "author": "Ronald Jhair Estela Quintana",
+    "license": "MIT"
+}

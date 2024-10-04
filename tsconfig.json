@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "outDir": "./lib", 
+      "module": "commonjs",
+      "target": "es5",
+      "lib": ["es6", "dom"],
+      "jsx": "react",
+      "declaration": true,
+      "sourceMap": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["AwesomeJeqMaps/**/*.ts"],
+    "exclude": ["node_modules"]
+}
+  
